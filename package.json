@@ -1,0 +1,42 @@
+{
+  "name": "koala-weather-widget",
+  "version": "0.1.0",
+  "description": "Weather widget for the Koala challenge! 🚀",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Pitu",
+    "email": "heyitspitu@gmail.com",
+    "url": "https://github.com/Pitu"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt serve",
+    "upload": "serverless s3sync"
+  },
+  "dependencies": {
+    "nuxt": "^2.7.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-aqua": "^5.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "node-sass": "^4.12.0",
+    "postcss-css-variables": "^0.12.0",
+    "postcss-nested": "^4.1.2",
+    "sass-loader": "^7.1.0",
+    "serverless-s3-sync": "^1.8.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "aqua/vue",
+      "aqua/node"
+    ],
+    "rules": {
+      "vue/attribute-hyphenation": 0,
+      "quote-props": 0
+    }
+  }
+}
