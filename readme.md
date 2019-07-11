@@ -7,6 +7,9 @@ This project assumes the weather widget is being loaded from an already working 
 
 It shows the forecast using the free tier API from OpenWeather, so it limits the data to 5 days and every 3 hours. The widget grabs the first item in the forecast array since it's the most recent one and then shows the weather for the current time in addition to the next 5 days at the same time of day.
 
+### Demo
+You can find a working implementation in [https://koala.kana.dev](https://koala.kana.dev)
+
 ### How to run
 1. `yarn install`
 2. `yarn dev` or `yarn build && yarn start`
