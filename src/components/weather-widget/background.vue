@@ -160,7 +160,6 @@ export default {
 		};
 	},
 	mounted() {
-		console.log('Width: ', this.width);
 		if (this.type === 'rain') return this.setupDroplets();
 		if (this.type === 'snow') return this.setupSnowflakes();
 	},
